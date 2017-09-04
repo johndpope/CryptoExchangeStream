@@ -8,8 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		E662910B1F5CD05F0035FE71 /* CryptoExchangeStream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E66291011F5CD05F0035FE71 /* CryptoExchangeStream.framework */; };
-		E66291101F5CD05F0035FE71 /* CryptoExchangeStreamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E662910F1F5CD05F0035FE71 /* CryptoExchangeStreamTests.swift */; };
 		E66291121F5CD05F0035FE71 /* CryptoExchangeStream.h in Headers */ = {isa = PBXBuildFile; fileRef = E66291041F5CD05F0035FE71 /* CryptoExchangeStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E662911C1F5CD0850035FE71 /* Exchange.swift in Sources */ = {isa = PBXBuildFile; fileRef = E662911B1F5CD0850035FE71 /* Exchange.swift */; };
+		E66291211F5CD0EB0035FE71 /* CoinbaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66291201F5CD0CC0035FE71 /* CoinbaseTests.swift */; };
+		E66291221F5CD13F0035FE71 /* Coinbase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E662911E1F5CD0A70035FE71 /* Coinbase.swift */; };
+		E66291251F5CD24F0035FE71 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E66291241F5CD24F0035FE71 /* Starscream.framework */; };
+		E66291281F5CE65B0035FE71 /* ConnectionStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66291271F5CE65B0035FE71 /* ConnectionStatus.swift */; };
+		E662912A1F5CEEB60035FE71 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66291291F5CEEB60035FE71 /* Token.swift */; };
+		E662912E1F5D4E290035FE71 /* CoinbaseModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E662912D1F5D4E290035FE71 /* CoinbaseModels.swift */; };
+		E66291301F5DC3CB0035FE71 /* CoinbaseTokenify.swift in Sources */ = {isa = PBXBuildFile; fileRef = E662912F1F5DC3CB0035FE71 /* CoinbaseTokenify.swift */; };
+		E66291331F5DCAB30035FE71 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E66291311F5DCAB30035FE71 /* RxCocoa.framework */; };
+		E66291341F5DCAB30035FE71 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E66291321F5DCAB30035FE71 /* RxSwift.framework */; };
+		E66291371F5DCB240035FE71 /* Ticker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66291361F5DCB240035FE71 /* Ticker.swift */; };
+		E662913A1F5DD2640035FE71 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E66291381F5DD2640035FE71 /* RxBlocking.framework */; };
+		E662913B1F5DD2640035FE71 /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E66291391F5DD2640035FE71 /* RxTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,8 +39,20 @@
 		E66291041F5CD05F0035FE71 /* CryptoExchangeStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CryptoExchangeStream.h; sourceTree = "<group>"; };
 		E66291051F5CD05F0035FE71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E662910A1F5CD05F0035FE71 /* CryptoExchangeStreamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoExchangeStreamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E662910F1F5CD05F0035FE71 /* CryptoExchangeStreamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoExchangeStreamTests.swift; sourceTree = "<group>"; };
 		E66291111F5CD05F0035FE71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E662911B1F5CD0850035FE71 /* Exchange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exchange.swift; sourceTree = "<group>"; };
+		E662911E1F5CD0A70035FE71 /* Coinbase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coinbase.swift; sourceTree = "<group>"; };
+		E66291201F5CD0CC0035FE71 /* CoinbaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinbaseTests.swift; sourceTree = "<group>"; };
+		E66291241F5CD24F0035FE71 /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = Carthage/Build/iOS/Starscream.framework; sourceTree = "<group>"; };
+		E66291271F5CE65B0035FE71 /* ConnectionStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionStatus.swift; sourceTree = "<group>"; };
+		E66291291F5CEEB60035FE71 /* Token.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		E662912D1F5D4E290035FE71 /* CoinbaseModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinbaseModels.swift; sourceTree = "<group>"; };
+		E662912F1F5DC3CB0035FE71 /* CoinbaseTokenify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinbaseTokenify.swift; sourceTree = "<group>"; };
+		E66291311F5DCAB30035FE71 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		E66291321F5DCAB30035FE71 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		E66291361F5DCB240035FE71 /* Ticker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticker.swift; sourceTree = "<group>"; };
+		E66291381F5DD2640035FE71 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
+		E66291391F5DD2640035FE71 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +60,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E662913A1F5DD2640035FE71 /* RxBlocking.framework in Frameworks */,
+				E662913B1F5DD2640035FE71 /* RxTest.framework in Frameworks */,
+				E66291331F5DCAB30035FE71 /* RxCocoa.framework in Frameworks */,
+				E66291341F5DCAB30035FE71 /* RxSwift.framework in Frameworks */,
+				E66291251F5CD24F0035FE71 /* Starscream.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +85,7 @@
 				E66291031F5CD05F0035FE71 /* CryptoExchangeStream */,
 				E662910E1F5CD05F0035FE71 /* CryptoExchangeStreamTests */,
 				E66291021F5CD05F0035FE71 /* Products */,
+				E66291231F5CD24F0035FE71 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,8 +101,12 @@
 		E66291031F5CD05F0035FE71 /* CryptoExchangeStream */ = {
 			isa = PBXGroup;
 			children = (
+				E66291351F5DCB130035FE71 /* API */,
+				E662911D1F5CD0930035FE71 /* Exchange */,
 				E66291041F5CD05F0035FE71 /* CryptoExchangeStream.h */,
 				E66291051F5CD05F0035FE71 /* Info.plist */,
+				E66291271F5CE65B0035FE71 /* ConnectionStatus.swift */,
+				E66291291F5CEEB60035FE71 /* Token.swift */,
 			);
 			path = CryptoExchangeStream;
 			sourceTree = "<group>";
@@ -80,10 +114,65 @@
 		E662910E1F5CD05F0035FE71 /* CryptoExchangeStreamTests */ = {
 			isa = PBXGroup;
 			children = (
-				E662910F1F5CD05F0035FE71 /* CryptoExchangeStreamTests.swift */,
+				E662911F1F5CD0BD0035FE71 /* Exchange */,
 				E66291111F5CD05F0035FE71 /* Info.plist */,
 			);
 			path = CryptoExchangeStreamTests;
+			sourceTree = "<group>";
+		};
+		E662911D1F5CD0930035FE71 /* Exchange */ = {
+			isa = PBXGroup;
+			children = (
+				E662911B1F5CD0850035FE71 /* Exchange.swift */,
+				E662912B1F5CF1DC0035FE71 /* Coinbase */,
+			);
+			path = Exchange;
+			sourceTree = "<group>";
+		};
+		E662911F1F5CD0BD0035FE71 /* Exchange */ = {
+			isa = PBXGroup;
+			children = (
+				E662912C1F5CF1E70035FE71 /* Coinbase */,
+			);
+			path = Exchange;
+			sourceTree = "<group>";
+		};
+		E66291231F5CD24F0035FE71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E66291381F5DD2640035FE71 /* RxBlocking.framework */,
+				E66291391F5DD2640035FE71 /* RxTest.framework */,
+				E66291311F5DCAB30035FE71 /* RxCocoa.framework */,
+				E66291321F5DCAB30035FE71 /* RxSwift.framework */,
+				E66291241F5CD24F0035FE71 /* Starscream.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E662912B1F5CF1DC0035FE71 /* Coinbase */ = {
+			isa = PBXGroup;
+			children = (
+				E662911E1F5CD0A70035FE71 /* Coinbase.swift */,
+				E662912D1F5D4E290035FE71 /* CoinbaseModels.swift */,
+				E662912F1F5DC3CB0035FE71 /* CoinbaseTokenify.swift */,
+			);
+			path = Coinbase;
+			sourceTree = "<group>";
+		};
+		E662912C1F5CF1E70035FE71 /* Coinbase */ = {
+			isa = PBXGroup;
+			children = (
+				E66291201F5CD0CC0035FE71 /* CoinbaseTests.swift */,
+			);
+			path = Coinbase;
+			sourceTree = "<group>";
+		};
+		E66291351F5DCB130035FE71 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				E66291361F5DCB240035FE71 /* Ticker.swift */,
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -108,6 +197,7 @@
 				E66290FD1F5CD05F0035FE71 /* Frameworks */,
 				E66290FE1F5CD05F0035FE71 /* Headers */,
 				E66290FF1F5CD05F0035FE71 /* Resources */,
+				E66291261F5CD3000035FE71 /* Copy Frameworks */,
 			);
 			buildRules = (
 			);
@@ -148,6 +238,7 @@
 				TargetAttributes = {
 					E66291001F5CD05F0035FE71 = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					E66291091F5CD05F0035FE71 = {
@@ -191,11 +282,40 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E66291261F5CD3000035FE71 /* Copy Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Starscream.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxBlocking.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxTest.framework",
+			);
+			name = "Copy Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E66290FC1F5CD05F0035FE71 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E662911C1F5CD0850035FE71 /* Exchange.swift in Sources */,
+				E66291221F5CD13F0035FE71 /* Coinbase.swift in Sources */,
+				E66291371F5DCB240035FE71 /* Ticker.swift in Sources */,
+				E66291281F5CE65B0035FE71 /* ConnectionStatus.swift in Sources */,
+				E662912A1F5CEEB60035FE71 /* Token.swift in Sources */,
+				E66291301F5DC3CB0035FE71 /* CoinbaseTokenify.swift in Sources */,
+				E662912E1F5D4E290035FE71 /* CoinbaseModels.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,7 +323,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E66291101F5CD05F0035FE71 /* CryptoExchangeStreamTests.swift in Sources */,
+				E66291211F5CD0EB0035FE71 /* CoinbaseTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,18 +454,24 @@
 		E66291161F5CD05F0035FE71 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = CryptoExchangeStream/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cryptostream.CryptoExchangeStream;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -354,12 +480,17 @@
 		E66291171F5CD05F0035FE71 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = CryptoExchangeStream/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -374,7 +505,12 @@
 		E66291191F5CD05F0035FE71 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = CryptoExchangeStreamTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cryptostream.CryptoExchangeStreamTests;
@@ -387,7 +523,12 @@
 		E662911A1F5CD05F0035FE71 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = CryptoExchangeStreamTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cryptostream.CryptoExchangeStreamTests;
