@@ -20,8 +20,6 @@
 		E66291331F5DCAB30035FE71 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E66291311F5DCAB30035FE71 /* RxCocoa.framework */; };
 		E66291341F5DCAB30035FE71 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E66291321F5DCAB30035FE71 /* RxSwift.framework */; };
 		E66291371F5DCB240035FE71 /* Ticker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66291361F5DCB240035FE71 /* Ticker.swift */; };
-		E662913A1F5DD2640035FE71 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E66291381F5DD2640035FE71 /* RxBlocking.framework */; };
-		E662913B1F5DD2640035FE71 /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E66291391F5DD2640035FE71 /* RxTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,8 +49,6 @@
 		E66291311F5DCAB30035FE71 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		E66291321F5DCAB30035FE71 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		E66291361F5DCB240035FE71 /* Ticker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticker.swift; sourceTree = "<group>"; };
-		E66291381F5DD2640035FE71 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
-		E66291391F5DD2640035FE71 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +56,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E662913A1F5DD2640035FE71 /* RxBlocking.framework in Frameworks */,
-				E662913B1F5DD2640035FE71 /* RxTest.framework in Frameworks */,
 				E66291331F5DCAB30035FE71 /* RxCocoa.framework in Frameworks */,
 				E66291341F5DCAB30035FE71 /* RxSwift.framework in Frameworks */,
 				E66291251F5CD24F0035FE71 /* Starscream.framework in Frameworks */,
@@ -140,8 +134,6 @@
 		E66291231F5CD24F0035FE71 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E66291381F5DD2640035FE71 /* RxBlocking.framework */,
-				E66291391F5DD2640035FE71 /* RxTest.framework */,
 				E66291311F5DCAB30035FE71 /* RxCocoa.framework */,
 				E66291321F5DCAB30035FE71 /* RxSwift.framework */,
 				E66291241F5CD24F0035FE71 /* Starscream.framework */,
@@ -292,8 +284,6 @@
 				"$(SRCROOT)/Carthage/Build/iOS/Starscream.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/RxBlocking.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/RxTest.framework",
 			);
 			name = "Copy Frameworks";
 			outputPaths = (
